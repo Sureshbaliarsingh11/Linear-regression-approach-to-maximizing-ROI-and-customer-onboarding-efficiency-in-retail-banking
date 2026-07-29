@@ -1,6 +1,5 @@
-# Linear-regression-approach-to-maximizing-ROI-and-customer-onboarding-efficiency-in-retail-banking
-Identifying Structural inefficiencies in legacy underwriting workflows. 
-Executive SummaryContext: The bank’s current underwriting process for assigning credit card limits relies heavily on manual reviews and rigid, outdated bracket-based rules. This creates operational bottlenecks, introduces human bias, and slows down the customer onboarding experience.
+# Linear-regression-approach-to-maximizing-ROI-and-customer-onboarding-efficiency-in-retail-banking----Identifying Structural inefficiencies in legacy underwriting workflows. 
+Executive Summary Context: The bank’s current underwriting process for assigning credit card limits relies heavily on manual reviews and rigid, outdated bracket-based rules. This creates operational bottlenecks, introduces human bias, and slows down the customer onboarding experience.
 The Opportunity: By deploying a validated Machine Learning Linear Regression model ($Y = mx + c$), the bank can completely automate initial credit limit allocations based on a customer's verified monthly income.The Outcome: This solution slashes loan processing cycle times from 2 business days to under 1 second, driving a frictionless customer onboarding experience. Concurrently, it reduces manual underwriting labor overhead by 70% and optimizes risk exposure, yielding an estimated $2.4M in business value and cost savings within the first fiscal year of implementation.
 **Problem Statement**
 The legacy manual credit evaluation workflow suffers from three core operational deficiencies:
