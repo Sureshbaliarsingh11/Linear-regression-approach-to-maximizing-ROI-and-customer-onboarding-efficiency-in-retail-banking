@@ -13,7 +13,9 @@ Inconsistent Risk Calibration: Human interpretation of applicant profiles create
 **Solution Recommendation**
 We recommend embedding a production-grade, audited Simple Linear Regression Model directly into the digital loan origination system (LOS).
 [Digital Application Intake] │ ▼ [Automated Income Verification]  
+
 │ ▼
+
 ┌────────────────────────────────────────────────────────┐
 │  Linear Regression Engine:                             │
 │  Approved Limit = 1.51 * (Monthly Income) + $1,945.20   │
