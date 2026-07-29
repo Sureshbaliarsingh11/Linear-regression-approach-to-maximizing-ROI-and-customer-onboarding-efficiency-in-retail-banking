@@ -17,8 +17,7 @@ We recommend embedding a production-grade, audited Simple Linear Regression Mode
 │ ▼
 
 ┌────────────────────────────────────────────────────────┐
-│  Linear Regression Engine:                             │
-│  Approved Limit = 1.51 * (Monthly Income) + $1,945.20   │
+│  Linear Regression Engine: Approved Limit = 1.51 * (Monthly Income) + $1,945.20   │
 └────────────────────────────────────────────────────────┘
           │
           ▼
