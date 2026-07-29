@@ -12,8 +12,7 @@ Inconsistent Risk Calibration: Human interpretation of applicant profiles create
 
 **Solution Recommendation**
 We recommend embedding a production-grade, audited Simple Linear Regression Model directly into the digital loan origination system (LOS).
-[Digital Application Intake] 
-          │
+[Digital Application Intake] │
           ▼
 [Automated Income Verification]
           │
