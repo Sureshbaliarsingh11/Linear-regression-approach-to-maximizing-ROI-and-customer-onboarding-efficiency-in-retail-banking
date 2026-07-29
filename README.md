@@ -12,8 +12,9 @@ Inconsistent Risk Calibration: Human interpretation of applicant profiles create
 
 **Solution Recommendation**
 We recommend embedding a production-grade, audited Simple Linear Regression Model directly into the digital loan origination system (LOS).
-[Digital Application Intake] │ ▼ [Automated Income Verification]  │ ▼  Linear Regression Engine: Approved Limit = 1.51 * (Monthly Income) + $1,945.20   ││ ▼ **[Instant Credit Decisioning & Activation (< 1 Sec)]**
-Technical Design ElementsThe Algorithm: Ordinary Least Squares (OLS) Simple Linear Regression.Core Logic: $Y = 1.51X + 1945.20$ (Derived from historical good-standing customer distributions).System Integration: A microservice API that takes verified income as an input (X) and instantly returns the mathematically optimized credit limit (Y).
+**[Digital Application Intake]** │ ▼ [Automated Income Verification]  │ ▼  Linear Regression Engine: Approved Limit = 1.51 * (Monthly Income) + $1,945.20   ││ ▼ **[Instant Credit Decisioning & Activation (< 1 Sec)]**
+
+**Technical Design Elements Algorithm**: Ordinary Least Squares (OLS) Simple Linear Regression.Core Logic: $Y = 1.51X + 1945.20$ (Derived from historical good-standing customer distributions).System Integration: A microservice API that takes verified income as an input (X) and instantly returns the mathematically optimized credit limit (Y).
 **Model Accuracy & Validation Metrics**
 The proposed regression model was trained and back-tested against a historical dataset of 1,000 active, verified accounts to ensure financial stability and predictive validity:R-squared ($R^2$) Score: 0.9814 Meaning: 98.14% of the historical variance in safe, revenue-generating credit limits is perfectly explained by the applicant’s monthly income.Root Mean Squared Error (RMSE): $782.40 Meaning: On average, the model's automated limit sits within a highly conservative margin of $\approx \$780$ relative to legacy manual approvals, keeping the bank well within its pre-defined credit risk appetite.Assumptions Satisfied: The model successfully passed strict regulatory compliance tests for homoscedasticity and residual normality, ensuring zero systemic bias against specific income brackets.
 
